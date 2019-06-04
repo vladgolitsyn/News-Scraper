@@ -1,5 +1,5 @@
-var router = require("express").Router();
-var newsController = require("../../controllers/news");
+const router = require("express").Router();
+const newsController = require("../../controllers/news");
 
 router.get("/", newsController.findAll);
 

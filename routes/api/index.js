@@ -1,5 +1,5 @@
-var router = require("express").Router();
-var newsRoutes = require("./news");
+const router = require("express").Router();
+const newsRoutes = require("./news");
 
 router.use("/headlines", newsRoutes);
 
